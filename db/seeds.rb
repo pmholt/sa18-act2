@@ -7,3 +7,20 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Product.create!(
+  name: "Smartphone",
+  price: 999.99,
+  description: "A powerful smartphone with advanced features."
+)
+
+Product.create!(
+  name: "Laptop",
+  price: 1499.99,
+  description: "A high-performance laptop for professional use."
+)
+
+Product.create!(
+  name: "Headphones",
+  price: 199.99,
+  description: "Wireless headphones with noise-cancelling technology."
+)
